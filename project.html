@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Mira Chew | Project</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body id="top" class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header" class="compact">
+
+					<!-- Logo -->
+						<h1><a href="index.html">Mira Chew</a></h1>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li  class="current"><a href="../index.html #projects">Projects</a></li>
+								<li><a href="index.html #work-experience">Work Experience</a></li>
+								<li><a href="index.html Resume_10-1-2025.pdf" target="_blank">Resume</a></li>
+							</ul>
+						</nav>
+
+				</section>
+
+                <main id="main-content">
+                    <div id="project-container" style="max-width: 800px; margin: 6em auto; padding: 1em;">
+                    <p>Loading project...</p>
+                    </div>
+                </main>
+
+			<!-- Footer -->
+				<section id="footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+								<section>
+									<header>
+										<h2>Contact Me</h2>
+									</header>
+									<ul class="social">
+										<!-- <li><a class="icon brands fa-facebook-f" href="#"><span class="label">Facebook</span></a></li>
+										<li><a class="icon brands fa-twitter" href="#"><span class="label">Twitter</span></a></li>
+										<li><a class="icon brands fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
+										<li><a class="icon brands fa-tumblr" href="#"><span class="label">Tumblr</span></a></li> -->
+										<li><a class="icon brands fa-linkedin-in" href="https://www.linkedin.com/in/mirachew/" target="_blank"><span class="label">LinkedIn</span></a></li>
+									</ul>
+									<ul class="contact">
+<!-- 										<li>
+											<h3>Address</h3>
+											<p>
+												Untitled Incorporated<br />
+												1234 Somewhere Road Suite<br />
+												Nashville, TN 00000-0000
+											</p>
+										</li> -->
+										<li>
+											<h3>Mail</h3>
+											<p><a href="mailto:mira@thechewfamily.com">mira@thechewfamily.com</a></p>
+										</li>
+										<li>
+											<h3>Phone</h3>
+											<p>(424) 262-4392</p>
+										</li>
+									</ul>
+								</section>
+							</div>
+							<div class="col-12">
+
+								<!-- Copyright -->
+									<div id="copyright">
+										<ul class="links">
+											<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+										</ul>
+									</div>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+			<a href="#top" class="home-button">
+                <i class="fas fa-arrow-up"></i>
+            </a>
+            
+        <script>
+            // Get ?project= value from the URL
+            const params = new URLSearchParams(window.location.search);
+            const projectName = params.get("project");
+
+            // Set markdown file path
+            const mdPath = `projects_md/${projectName}.md`;
+
+            fetch(mdPath)
+            .then(response => {
+                if (!response.ok) throw new Error("Project not found");
+                return response.text();
+            })
+            .then(text => {
+                document.getElementById("project-container").innerHTML = marked.parse(text);
+            })
+            .catch(error => {
+                document.getElementById("project-container").innerHTML = `
+                <h2>Project Not Found</h2>
+                <p>Sorry, that project couldn’t be loaded. <a href="index.html#projects">Back to Projects</a></p>
+                `;
+                console.error(error);
+            });
+        </script>
+	</body>
+</html>

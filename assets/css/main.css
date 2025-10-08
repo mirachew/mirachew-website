@@ -2937,3 +2937,59 @@ html {
 			}
 
 	}
+/* Compact header (used on non-home pages) */
+#header.compact {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(34, 30, 31, 0.98);
+	z-index: 1000;
+	padding: 1em 1em; /* smaller vertical padding */
+	display: flex;
+	align-items: center; /* vertically center nav + title */
+	justify-content: center; /* centers everything as a whole */
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Nav (left side) */
+#header.compact #nav {
+	position: absolute;
+	left: 1em;
+	top: 50%;
+	transform: translateY(-50%); /* perfectly vertical align */
+	margin: 0;
+}
+
+#header.compact #nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	gap: 0.8em;
+}
+
+#header.compact #nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-style: normal;
+	padding: 0.2em 0.4em;
+}
+
+#header.compact #nav ul li a:hover {
+	color: #252122;
+}
+
+/* Title (centered) */
+#header.compact h1 {
+	color: #fff;
+	font-size: 1.3em;
+	margin: 0;
+	text-align: center;
+}
+
+/* Prevent content from being hidden behind the fixed header */
+body {
+	scroll-padding-top: 60px;
+}
