@@ -2,6 +2,6 @@
 
 **Farm-ng, Summer 2025**
 
-Designed and built a hydraulically linked suspension system for autonomous tractors using CNC machining, sheet metal fabrication, and laser cutting. Focused on durability, manufacturability, and ride stability.
+Created a custom two-piece aluminum box with a rotating top using precision press-fit dowel alignment, focusing on GD&T, CAM setup, and manufacturability.
 
 ![Suspension photo](../images/farm-ng_work_pic_front.jpg)
