@@ -6,7 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+        <script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"></script>
 	<body id="top" class="homepage is-preload">
 		<div id="page-wrapper">
 
@@ -20,19 +20,24 @@
 						<nav id="nav">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li  class="current"><a href="../index.html #projects">Projects</a></li>
-								<li><a href="index.html #work-experience">Work Experience</a></li>
-								<li><a href="index.html Resume_10-1-2025.pdf" target="_blank">Resume</a></li>
+								<li  class="current"><a href="index.html#projects">Projects</a></li>
+								<li><a href="index.html#work-experience">Work Experience</a></li>
+								<li><a href="Resume_10-1-2025.pdf" target="_blank">Resume</a></li>
 							</ul>
 						</nav>
 
 				</section>
 
-                <main id="main-content">
-                    <div id="project-container" style="max-width: 800px; margin: 6em auto; padding: 1em;">
-                    <p>Loading project...</p>
-                    </div>
-                </main>
+                <section id="main">
+                    <main id="main-content">
+                        <div class="container">
+                            <div class="row">
+                                <zero-md id="project-content"></zero-md>
+                            </div>
+                        </div>
+
+                    </main>
+                </section>
 
 			<!-- Footer -->
 				<section id="footer">
@@ -100,28 +105,24 @@
             </a>
             
         <script>
-            // Get ?project= value from the URL
-            const params = new URLSearchParams(window.location.search);
-            const projectName = params.get("project");
+            // Get the 'project' parameter from the URL query string
+            const urlParams = new URLSearchParams(window.location.search);
+            const projectName = urlParams.get('project');
 
-            // Set markdown file path
-            const mdPath = `projects_md/${projectName}.md`;
+            // Find the zero-md element
+            const zeroMdElement = document.getElementById('project-content');
 
-            fetch(mdPath)
-            .then(response => {
-                if (!response.ok) throw new Error("Project not found");
-                return response.text();
-            })
-            .then(text => {
-                document.getElementById("project-container").innerHTML = marked.parse(text);
-            })
-            .catch(error => {
-                document.getElementById("project-container").innerHTML = `
-                <h2>Project Not Found</h2>
-                <p>Sorry, that project couldn’t be loaded. <a href="index.html#projects">Back to Projects</a></p>
-                `;
-                console.error(error);
-            });
+            if (projectName) {
+                // Construct the path to the Markdown file
+                // Assuming your markdown files are in a 'markdown' folder
+                const mdFilePath = `projects_md/${projectName}.md`;
+                
+                // Set the src attribute to load the correct file
+                zeroMdElement.setAttribute('src', mdFilePath);
+            } else {
+                // Handle cases where no project is specified
+                zeroMdElement.innerHTML = "<h2>Project not found</h2><p>Please return to the <a href='index.html'>homepage</a> to select a project.</p>";
+            }
         </script>
 	</body>
 </html>
