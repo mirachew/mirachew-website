@@ -7,7 +7,7 @@ Developed, prototyped, and tested multiple gearbox architectures for actuating r
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![Concept gearbox rendering](../images/gearbox/custom-gearbox-animation.gif)
+![Concept gearbox rendering](../images/custom-gearbox-animation.gif)
 <br><em>Video of differential style custom gearbox concept</em>
 </div>
 

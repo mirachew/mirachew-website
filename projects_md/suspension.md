@@ -16,7 +16,7 @@ Evaluated multiple suspension concepts—rubber torsion, mechanical linkage, and
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![Suspension Photo](../images/suspension/suspension_assembly.PNG)
+![Suspension Photo](/mirachew-website/images/suspension_assembly.PNG)
 <br><em>CAD model of one side of cross-linked suspension system.</em>
 </div>
 

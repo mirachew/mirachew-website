@@ -30,7 +30,7 @@ The final design uses a TIG-welded aluminum frame with integrated foot supports,
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![CAD model of custom stool](../images/stool/stool_cad.png)
+![CAD model of custom stool](/mirachew-website/images/stool_cad.png)
 <br><em>CAD model showing overall design and foldable frame.</em>
 </div>
 
@@ -48,7 +48,7 @@ I led the full design and fabrication process, translating user needs into a fun
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![Finished stool before painting](../images/stool/stool_pre-paint.png)
+![Finished stool before painting](/mirachew-website/images/stool_pre-paint.png)
 <br><em>Fabricated aluminum frame before black powder coating.</em>
 </div>
 
@@ -64,13 +64,13 @@ The project strengthened skills in **human-centered mechanical design**, iterati
 
 <div style="border:1px solid #ccc; padding:5px;">
 
-  ![Custom stool collapsed](../images/stool/stool_compact.png)
+  ![Custom stool collapsed](/mirachew-website/images/stool_compact.png)
 
   <br><em>Stool collapsed for compact storage.</em>
 </div>
 <div style="border:1px solid #ccc; padding:5px;">
 
-  ![Custom stool fully extended](../images/stool/stool_expanded.png)
+  ![Custom stool fully extended](/mirachew-website/images/stool_expanded.png)
   <br><em>Stool fully extended at maximum height.</em>
 </div>
 

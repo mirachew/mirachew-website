@@ -9,7 +9,7 @@ Designed and manufactured a custom aluminum box from two 3”×3”×1.5” stoc
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![Treasure Box Product](../images/box/finished-view.png)
+![Treasure Box Product](../images/finished-view.png)
 <br><em>Finished treasure box product.</em>
 
 </div>
@@ -31,7 +31,7 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![Treasure Box CAD Exploded View](../images/box/exploded-labeled-view.png)
+![Treasure Box CAD Exploded View](../images/exploded-labeled-view.png)
 <br><em>Exploded CAD model of Treasure Box.</em>
 </div>
 
@@ -43,7 +43,7 @@ Using Fusion 360’s built-in CAM environment, I created the toolpaths and gener
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
 
-![Treasure Box Machining](../images/box/machining-pic.png)
+![Treasure Box Machining](../images/machining-pic.png)
 <br><em>CAM setup of top and bottom pieces.</em>
 </div>
 
@@ -71,9 +71,9 @@ Engineering drawings were created in **Fusion 360** to define dimensional tolera
 
 
 
-![Treasure Box Bottom Drawing](../images/box/drawing-bottom.png)
+![Treasure Box Bottom Drawing](../images/drawing-bottom.png)
 
-![Treasure Box Top Drawing](../images/box/drawing-top.png)
+![Treasure Box Top Drawing](../images/drawing-top.png)
 
 
 *Each drawing includes datums, reference dimensions, and feature control frames to ensure consistent press-fit geometry.*
