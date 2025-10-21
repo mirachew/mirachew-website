@@ -5,11 +5,14 @@
 Designed and manufactured a custom aluminum box from two 3”×3”×1.5” stock pieces using CNC milling on a Tormach 770M. The project focused on learning CAM setup, GD&T application, and precision alignment using press-fit dowel pins. I modeled the box in Fusion 360, programmed the toolpaths, and performed tolerance checks to achieve a smooth rotating assembly with tight fits.
 
 
-<div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/box/finished-view.png" alt="Treasure Box Product" width="40%" style="display:block; margin:auto;">
-<br><em>Finished treasure box product.</em>
-</div>
 
+
+<div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
+
+![Treasure Box Product](../images/box/finished-view.png)
+<br><em>Finished treasure box product.</em>
+
+</div>
 
 
 ---
@@ -27,10 +30,10 @@ Designed and manufactured a custom aluminum box from two 3”×3”×1.5” stoc
 The treasure box serves as a small mechanical display piece. The rotating top reveals different images in four circular cutouts on the bottom plate, spinning smoothly about a 0.25” press-fit dowel pin (FN2 fit). Both parts feature shallow pockets and chamfers for aesthetic and functional alignment.
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/box/exploded-labeled-view.png" alt="Treasure Box CAD Exploded View" width="70%" style="display:block; margin:auto;">
+
+![Treasure Box CAD Exploded View](../images/box/exploded-labeled-view.png)
 <br><em>Exploded CAD model of Treasure Box.</em>
 </div>
-
 
 
 ---
@@ -39,7 +42,8 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 Using Fusion 360’s built-in CAM environment, I created the toolpaths and generated G-code for the Tormach 770M. I optimized for machining speed by minimizing tool changes and maintaining consistent coordinate references.
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/box/machining-pic.png" alt="Treasure Box Machining" width="90%" style="display:block; margin:auto;">
+
+![Treasure Box Machining](../images/box/machining-pic.png)
 <br><em>CAM setup of top and bottom pieces.</em>
 </div>
 
@@ -65,8 +69,12 @@ Using Fusion 360’s built-in CAM environment, I created the toolpaths and gener
 
 Engineering drawings were created in **Fusion 360** to define dimensional tolerances, hole fits, and GD&T callouts. These documents ensured machinability and assembly alignment between the top and bottom pieces.
 
-<img src="/mirachew-website/images/box/drawing-bottom.png" alt="Treasure Box Bottom Drawing" width="90%" style="display:block; margin:auto;">
-<img src="/mirachew-website/images/box/drawing-top.png" alt="Treasure Box Top Drawing" width="90%" style="display:block; margin:auto;">
+
+
+![Treasure Box Bottom Drawing](../images/box/drawing-bottom.png)
+
+![Treasure Box Top Drawing](../images/box/drawing-top.png)
+
 
 *Each drawing includes datums, reference dimensions, and feature control frames to ensure consistent press-fit geometry.*
 

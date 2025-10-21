@@ -6,7 +6,8 @@ Developed, prototyped, and tested multiple gearbox architectures for actuating r
 
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/gearbox/custom-gearbox-animation.gif" alt="Concept gearbox rendering" width="60%" style="display:block; margin:auto;">  
+
+![Concept gearbox rendering](../images/gearbox/custom-gearbox-animation.gif)
 <br><em>Video of differential style custom gearbox concept</em>
 </div>
 
@@ -37,7 +38,8 @@ Early exploration focused on achieving compact and manufacturable designs while 
 - Motion efficiency and torque transfer  
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/jnj_gearbox_front_pic.jpg" alt="Concept gearbox rendering" width="60%" style="display:block; margin:auto;">  
+
+![Concept gearbox rendering](../images/jnj_gearbox_front_pic.jpg)
 <br><em>Helical-mecanum style gearbox concept.</em>
 </div>
 

@@ -6,7 +6,8 @@ Laser Wizard Tag is a custom-built, multiplayer game that reimagines traditional
 
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/laser_tag_front_pic.jpg" alt="Laser Wizard Tag Final Prototype" width="45%" style="display:block; margin:auto;">
+
+![Laser Wizard Tag Final Prototype](../images/laser_tag_front_pic.jpg)
 <br><em>Final laser wizard tag vest.</em>
 </div>
 
@@ -71,12 +72,14 @@ Each vest featured five sensor panels (four front, one back), each with multiple
 
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/laser-tag/circuit_diagram.png" alt="Electrical System Diagram" width="70%" style="display:block; margin:auto;">
+
+![Electrical System Diagram](../images/laser-tag/circuit_diagram.png)
 <br><em>Basic circuit diagram of each vest.</em>
 </div>
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/laser-tag/esp8266.png" alt="MicroController" width="60%" style="display:block; margin:auto;">
+
+![MicroController](../images/laser-tag/esp8266.png)
 <br><em>ESP8266 controller in housing with circuitry attached.</em>
 </div>
 
@@ -106,7 +109,8 @@ if (playerHealth > 0 && detectHit()) {
 ```
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/laser-tag/game_logic.png" alt="Game Logic Code Screenshot" width="70%" style="display:block; margin:auto;">
+
+![Game Logic Code Screenshot](../images/laser-tag/game_logic.png)
 <br><em>Basic method called each loop to update a player's status and run their player functions.</em>
 </div>
 
@@ -130,12 +134,14 @@ All wiring was sandwiched between foam layers and routed to a custom 3D-printed 
 
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/laser-tag/vest_inside.png" alt="Vest Internal Circuitry" width="60%" style="display:block; margin:auto;">
+
+![Vest Internal Circuitry](../images/laser-tag/vest_inside.png)
 <br><em>Inside of vest prior to closure with charmeuse lining.</em>
 </div>
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/laser-tag/vest_outside.png" alt="Vest Outside" width="70%" style="display:block; margin:auto;">
+
+![Vest Outside](../images/laser-tag/vest_outside.png)
 <br><em>Finished vest outside view.</em>
 </div>
 

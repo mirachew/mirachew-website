@@ -15,7 +15,8 @@ Tractors are used in fields with uneven ground where Farm-ng's small autonomous 
 Evaluated multiple suspension concepts—rubber torsion, mechanical linkage, and hydraulic cross-link—through CAD modeling and kinematic analysis. I selected the hydraulic cross-linked system for its ability to equalize load between wheels, provide greater travel without complex geometry/materials, offer fine control through fluid tuning, and is lower cost.
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="/mirachew-website/images/suspension/suspension_assembly.PNG" alt="Suspension Photo" width="60%">
+
+![Suspension Photo](../images/suspension/suspension_assembly.PNG)
 <br><em>CAD model of one side of cross-linked suspension system.</em>
 </div>
 
