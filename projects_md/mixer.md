@@ -6,7 +6,7 @@ Collaboratively reverse-engineered and rebuilt a KitchenAid handheld mixer in CA
 
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="../images/mixer_front_pic.PNG" alt="Mixer Full CAD Assembly" width="50%" style="display:block; margin:auto;">
+<img src="/mirachew-website/images/mixer_front_pic.PNG" alt="Mixer Full CAD Assembly" width="50%" style="display:block; margin:auto;">
 <br><em>Ful CAD assembly of handheld electric mixer.</em>
 </div>
 
@@ -20,7 +20,7 @@ This project focused on re-creating a real consumer product entirely in CAD. Eac
 I modeled the outer housing and internal shell pieces, which required managing complex ergonomic surfaces and internal clearances for gears, motors, and electronics. I also took initiative to model the PCB to explore how mechanical and electrical designs interface in Fusion 360.
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="../images/mixer/housing-assembly.PNG" alt="Mixer Housing Assembly" width="40%" style="display:block; margin:auto;">
+<img src="/mirachew-website/images/mixer/housing-assembly.PNG" alt="Mixer Housing Assembly" width="40%" style="display:block; margin:auto;">
 <br><em>Housing assemlby CAD of mixer.</em>
 </div>
 
@@ -36,7 +36,7 @@ I modeled the outer housing and internal shell pieces, which required managing c
 
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="../images/mixer/exploded-view.PNG" alt="Mixer Exploded View" width="50%" style="display:block; margin:auto;">
+<img src="/mirachew-website/images/mixer/exploded-view.PNG" alt="Mixer Exploded View" width="50%" style="display:block; margin:auto;">
 <br><em>Exploded CAD model of mixer.</em>
 </div>
 
@@ -51,7 +51,7 @@ The housing geometry was modeled from physical measurements of the original mixe
 For the PCB, I imported reference geometry from the assembly to define mounting shape and connector locations, learning how mechanical context guides board layout.
 
 <div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-<img src="../images/mixer/mixer-pcb-cad.PNG" alt="Mixer PCB CAD" width="30%" style="display:block; margin:auto;">
+<img src="/mirachew-website/images/mixer/mixer-pcb-cad.PNG" alt="Mixer PCB CAD" width="30%" style="display:block; margin:auto;">
 <br><em>Basic CAD model of PCB, made in Fusion 360.</em>
 </div>
 
