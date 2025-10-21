@@ -1,54 +1,41 @@
 # Hydraulically Interconnected Tractor Suspension
 
-**Farm-ng | Summer 2025**
+**Farm-ng, Summer 2025**
 
 Designed and built a hydraulically linked suspension system for autonomous tractors using CNC machining, sheet metal fabrication, and laser cutting. Focused on durability, manufacturability, and ride stability.
-
----
 
 ## The Problem
 Tractors are used in fields with uneven ground where Farm-ng's small autonomous tractors underperform; wheels spin in the air; the tractor may tip. Finding an inexpensive solution to keep all four wheels in contact with the ground is crucial to the tractor's ability to traverse.
 
----
+## The Process
 
-## Concept Development
-Evaluated multiple suspension concepts—rubber torsion, mechanical linkage, and hydraulic cross-link—through CAD modeling and kinematic analysis. I selected the hydraulic cross-linked system for its ability to equalize load between wheels, provide greater travel without complex geometry/materials, offer fine control through fluid tuning, and is lower cost.
-
-![Suspension photo](../images/suspension/suspension_assembly.PNG)
-
----
-
-## Overview / My Role & Contributions
-At Farm-ng, a startup developing autonomous tractors, I designed, fabricated, and tested a hydraulically cross-linked suspension system to enhance in-field traversing. I created detailed SolidWorks models, performed tolerance analysis, stress analysis, and iterated designs to optimize manufacturability, travel range, and cost. I validated 27° wheel articulation via hands-on prototyping and testing. I refined the design for production,  reducing manufacturing time by 36% and cost by 20%. This project strengthened my skills in parametric CAD, design for manufacturing, and practical prototyping, while balancing precision, robustness, and performance in a real-world agricultural robotics setting. My contributions directly advanced the tractor’s functional reliability and manufacturability.
-
----
-
-## Testing & Validation
-Conducted bench tests and kinematic simulaitons to validate suspension articulation and hydraulic feedback. Verified 27° articulation and cross-linking behavior through deflection measurements.
-Result: Tractor maintained four-wheel contact across terrain step differences up to 45% of the wheel-base length.
-
----
-
-## Technical Tools & Skills
-
-- SolidWorks (parametric modeling & simulation)
-- Tolerance and stress analysis
-- Hydraulic design and testing
-- Machining and fabrication for prototyping
-- Design for Manufacturing (DFM) optimization
-- Collaboration in industrial startup environment
-
----
-
-## Key Challenges & Learnings
-
-- Balancing suspension travel with manufacturable component geometry
-- Managing tight cost and time constraints in a startup production environment
-- Translating prototype learnings into scalable, reliable production design
-- Confirming structural reliability of full assembly in harsh environments
+## The Result
 
 
+![Suspension photo](../images/farm-ng_work_pic_front.jpg)
 
 
+A title/project name
+A one-liner about the project
+The objective of the design project (e.g., the relevant design requirements, given or self-imposed)
+The results of the design, and your evaluation of how well it met the initial objectives
+A list of the skills you developed on this project
+Visuals (visuals are the best driver of a portfolio, and text should be integrated to support the visuals)
+Photograph of the final product
+Photographs of the manufacturing process
+CAD/renderings of your design
+Exploded assembly drawing (see thi
 
-
+Dimensioned drawings of final parts (tooling drawings are optional)
+Any graphs or other analysis you completed
+Three challenges you encountered/anticipated and an explanation of how you overcame them using DFM best practices. Here is where you can show you know the key elements for successful manufacturing and engineering. This is a good place to include technical analysis and detail that your engineering-focused audience will be looking for in your work. Challenges may include:
+Tolerancing/dimensioning considerations
+Geometry considerations
+Assembly considerations
+Material considerations
+Temperature/pressure/timing considerations
+Costing considerations
+Additional details to include:
+How much would your parts cost if you used a service like 3DHub (how does it change with quantity, material choice, finish).
+An estimate of the cycle time required for each operation in the factory, guided by your analysis, assembly of the design, other experience lab, and intuition/research.
+BOM with materials, COTS, and estimated manufacturing/assembly costs

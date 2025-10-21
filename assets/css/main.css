@@ -2205,7 +2205,7 @@ input, select, textarea {
 				font-style: normal;
 				margin: 0;
 				line-height: 1.4;
-				font-size: 1.15em;
+				font-size: 1em;
 			}
 
 /* Intro */
@@ -2992,30 +2992,4 @@ html {
 /* Prevent content from being hidden behind the fixed header */
 body {
 	scroll-padding-top: 60px;
-}
-.work-meta {
-  display: flex;
-  justify-content: space-between;
-  font-style: normal;
-  margin: 0.25em 0 0.75em;
-  font-size: 0.95em;
-}
-
-.role {
-  font-weight: 500;
-}
-
-.dates {
-  color: #777;
-}
-
-
-@media (max-width: 600px) {
-  .work-meta {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .dates {
-    margin-top: 0.2em;
-  }
 }
