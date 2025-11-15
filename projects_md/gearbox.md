@@ -4,14 +4,7 @@
 
 Developed, prototyped, and tested multiple gearbox architectures for actuating roll and insertion degrees of freedom in a next-generation surgical instrument. Explored and evaluated six custom gearing concepts under strict spatial, torque, and manufacturability constraints. Focused on optimizing smoothness, reliability, and assembly efficiency through rapid prototyping and design iteration.
 
-
-<div style="text-align:center; border:1px solid #ccc; padding:5px; margin:15px 0;">
-
-![Concept gearbox rendering](../images/custom-gearbox-animation.gif)
-<br><em>Video of differential style custom gearbox concept</em>
-</div>
-
-
+[Differential gearbox concept demonstration video here.](https://youtu.be/i0Mm2qCnhw0)
 
 
 ## Project Overview  
