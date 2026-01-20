@@ -45,9 +45,9 @@ One concept (shown right) used helical and mecanum-style differential gears to a
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
 
-![Concept gearbox rendering](../images/jnj_gearbox_front_pic.jpg)
+![Concept gearbox rendering](/mirachew-website/images/jnj_gearbox_front_pic.jpg)
 
 <br><em>Helical-mecanum style gearbox concept.</em>
 

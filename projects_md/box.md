@@ -27,9 +27,9 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
 
-![Treasure Box Product](../images/finished-view.png)
+![Treasure Box Product](/mirachew-website/images/finished-view.png)
 
 <br><em>Finished treasure box product.</em>
 
@@ -41,9 +41,9 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
 
-![Treasure Box CAD Exploded View](../images/exploded-labeled-view.png)
+![Treasure Box CAD Exploded View](/mirachew-website/images/exploded-labeled-view.png)
 
 <br><em>Exploded CAD model of Treasure Box.</em>
 
@@ -59,9 +59,9 @@ Using Fusion 360's built-in CAM environment, I created the toolpaths and generat
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
 
-![Treasure Box Machining](../images/machining-pic.png)
+![Treasure Box Machining](/mirachew-website/images/machining-pic.png)
 
 <br><em>CAM setup of top and bottom pieces.</em>
 
@@ -93,15 +93,15 @@ Engineering drawings were created in **Fusion 360** to define dimensional tolera
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![Treasure Box Bottom Drawing](../images/drawing-bottom.png)
+![Treasure Box Bottom Drawing](/mirachew-website/images/drawing-bottom.png)
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![Treasure Box Top Drawing](../images/drawing-top.png)
+![Treasure Box Top Drawing](/mirachew-website/images/drawing-top.png)
 
 </div>
 

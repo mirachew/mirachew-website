@@ -6,9 +6,9 @@ Designed and implemented pneumatic fatigue testing setups to evaluate mechanical
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![Suspension photo](../images/farm-ng_work_pic_front.jpg)
+![Suspension photo](/mirachew-website/images/farm-ng_work_pic_front.jpg)
 
 </div>
 

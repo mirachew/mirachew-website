@@ -18,9 +18,9 @@ The initial plan was to simply weld everything together, which would have destro
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![CAD model of load-cell link](../images/load_cell_cad.png)
+![CAD model of load-cell link](/mirachew-website/images/load_cell_cad.png)
 
 <br><em>CAD model of the in-line load-cell pull rod assembly.</em>
 
@@ -55,9 +55,9 @@ The components I welded retained usable threads and the fixture bolts could be r
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![Welded components](../images/load_cell_welds.png)
+![Welded components](/mirachew-website/images/load_cell_welds.png)
 
 <br><em>TIG-welded threaded components with concentric assembly and controlled heat input.</em>
 
@@ -73,9 +73,9 @@ After welding and chasing the threads, the completed links were installed betwee
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![Installed on suspension](../images/formula_load_cell_installed_frontpic.png)
+![Installed on suspension](/mirachew-website/images/formula_load_cell_installed_frontpic.png)
 
 <br><em>Installed load-cell link measuring suspension loads on the Formula SAE car.</em>
 
