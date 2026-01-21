@@ -17,17 +17,11 @@ Designed and manufactured a custom aluminum box from two 3"×3"×1.5" stock piec
 
 ## Design Overview
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin: 20px 0;">
-
-<div style="flex: 1;">
-
 The treasure box serves as a small mechanical display piece. The rotating top reveals different images in four circular cutouts on the bottom plate, spinning smoothly about a 0.25" press-fit dowel pin (FN2 fit). Both parts feature shallow pockets and chamfers for aesthetic and functional alignment.
 
-</div>
+<div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="flex-shrink: 0;">
-
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
 ![Treasure Box Product](/mirachew-website/images/finished-view.png)
 
@@ -35,13 +29,7 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 
 </div>
 
-</div>
-
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
 ![Treasure Box CAD Exploded View](/mirachew-website/images/exploded-labeled-view.png)
 
@@ -91,23 +79,101 @@ Using Fusion 360's built-in CAM environment, I created the toolpaths and generat
 
 Engineering drawings were created in **Fusion 360** to define dimensional tolerances, hole fits, and GD&T callouts. These documents ensured machinability and assembly alignment between the top and bottom pieces.
 
+<style>
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 9999;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+}
+
+.lightbox-image {
+  max-width: 95%;
+  max-height: 95%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10000;
+}
+
+.lightbox-close:hover {
+  color: #ccc;
+}
+
+.lightbox-clickable {
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.lightbox-clickable:hover {
+  opacity: 0.8;
+}
+</style>
+
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;" class="lightbox-clickable" onclick="openLightbox('/mirachew-website/images/drawing-bottom.png')">
 
-![Treasure Box Bottom Drawing](/mirachew-website/images/drawing-bottom.png)
-
-</div>
-
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
-
-![Treasure Box Top Drawing](/mirachew-website/images/drawing-top.png)
+<img src="/mirachew-website/images/drawing-bottom.png" alt="Treasure Box Bottom Drawing" style="max-width: 100%; height: auto;">
 
 </div>
 
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;" class="lightbox-clickable" onclick="openLightbox('/mirachew-website/images/drawing-top.png')">
+
+<img src="/mirachew-website/images/drawing-top.png" alt="Treasure Box Top Drawing" style="max-width: 100%; height: auto;">
+
 </div>
 
-*Each drawing includes datums, reference dimensions, and feature control frames to ensure consistent press-fit geometry.*
+</div>
+
+<div id="lightbox-overlay" class="lightbox-overlay" onclick="closeLightbox()">
+  <span class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">&times;</span>
+  <img id="lightbox-image" class="lightbox-image" src="" alt="" onclick="event.stopPropagation()">
+</div>
+
+<script>
+function openLightbox(imageSrc) {
+  const overlay = document.getElementById('lightbox-overlay');
+  const image = document.getElementById('lightbox-image');
+  image.src = imageSrc;
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeLightbox() {
+  const overlay = document.getElementById('lightbox-overlay');
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+document.addEventListener('keydown', function(event) {
+  if (event.key === 'Escape') {
+    closeLightbox();
+  }
+});
+</script>
+
+*Each drawing includes datums, reference dimensions, and feature control frames to ensure consistent press-fit geometry. Click on a drawing to view it in full size.*
 
 ---
 

@@ -20,7 +20,7 @@ I modeled the outer housing and internal shell pieces, which required managing c
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
 
 ![Mixer Full CAD Assembly](/mirachew-website/images/mixer_front_pic.PNG)
 
@@ -46,19 +46,13 @@ I modeled the outer housing and internal shell pieces, which required managing c
 
 ## Concept & Design Process
 
-<div style="display: flex; gap: 20px; align-items: flex-start; margin: 20px 0;">
-
-<div style="flex: 1;">
-
 The housing geometry was modeled from physical measurements of the original mixer. Maintaining ergonomic form while ensuring space for internal components required creating reference planes, curvature continuity, and shell features.
 
 For the PCB, I imported reference geometry from the assembly to define mounting shape and connector locations, learning how mechanical context guides board layout.
 
-</div>
+<div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="flex-shrink: 0;">
-
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
 ![Mixer Housing Assembly](/mirachew-website/images/housing-assembly.PNG)
 
@@ -66,13 +60,7 @@ For the PCB, I imported reference geometry from the assembly to define mounting 
 
 </div>
 
-</div>
-
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
 ![Mixer Exploded View](/mirachew-website/images/exploded-view.PNG)
 
@@ -80,13 +68,9 @@ For the PCB, I imported reference geometry from the assembly to define mounting 
 
 </div>
 
-</div>
-
-<div style="text-align: center; margin: 20px 0;">
-
 <div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
-![Mixer PCB CAD](/mirachew-website/images/mixer-pcb-cad.PNG)
+![Mixer PCB CAD](/mirachew-website/images/mixer-pcb-cad.png)
 
 <br><em>Basic CAD model of PCB, made in Fusion 360.</em>
 

@@ -8,6 +8,10 @@ A rapid-turn fabrication project supporting the Formula SAE team's suspension da
 
 ## Background
 
+<div style="display: flex; gap: 20px; align-items: flex-start; margin: 20px 0;">
+
+<div style="flex: 1;">
+
 When I joined the team, a pull-rod load-cell link had already been designed in CAD, but the design had not considered:
 
 - how the weld nuts and tubes would be fixtured concentrically during welding
@@ -16,7 +20,9 @@ When I joined the team, a pull-rod load-cell link had already been designed in C
 
 The initial plan was to simply weld everything together, which would have destroyed alignment and thread quality. I stepped in to redesign the fabrication process so the parts were actually manufacturable and reliable.
 
-<div style="text-align: center; margin: 20px 0;">
+</div>
+
+<div style="flex-shrink: 0; align-self: flex-start;">
 
 <div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
@@ -28,9 +34,15 @@ The initial plan was to simply weld everything together, which would have destro
 
 </div>
 
+</div>
+
 ---
 
 ## Design for Manufacturability
+
+<div style="display: flex; gap: 20px; align-items: flex-start; margin: 20px 0;">
+
+<div style="flex: 1;">
 
 ### Threading and fixturing strategy
 
@@ -53,13 +65,17 @@ Threaded joints are very sensitive to heat input. To avoid locking or deforming 
 
 The components I welded retained usable threads and the fixture bolts could be removed after welding. In contrast, parts welded with higher heat input had fully fused bolts and destroyed threads and were not usable on the car.
 
-<div style="text-align: center; margin: 20px 0;">
+</div>
+
+<div style="flex-shrink: 0; align-self: flex-start;">
 
 <div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
 
 ![Welded components](/mirachew-website/images/load_cell_welds.png)
 
 <br><em>TIG-welded threaded components with concentric assembly and controlled heat input.</em>
+
+</div>
 
 </div>
 

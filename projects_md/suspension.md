@@ -24,7 +24,7 @@ Evaluated multiple suspension concepts—rubber torsion, mechanical linkage, and
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
 
 ![Suspension Photo](/mirachew-website/images/suspension_assembly.PNG)
 
