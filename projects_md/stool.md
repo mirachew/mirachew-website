@@ -36,7 +36,7 @@ The final design uses a TIG-welded aluminum frame with integrated foot supports,
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 300px;">
 
 ![CAD model of custom stool](/mirachew-website/images/stool_cad.png)
 
@@ -70,7 +70,7 @@ The project strengthened skills in **human-centered mechanical design**, iterati
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 300px;">
 
 ![Finished stool before painting](/mirachew-website/images/stool_pre-paint.png)
 
@@ -92,7 +92,7 @@ The project strengthened skills in **human-centered mechanical design**, iterati
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Custom stool collapsed](/mirachew-website/images/stool_compact.png)
 
@@ -100,7 +100,7 @@ The project strengthened skills in **human-centered mechanical design**, iterati
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Custom stool fully extended](/mirachew-website/images/stool_expanded.png)
 

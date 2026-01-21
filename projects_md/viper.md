@@ -12,7 +12,7 @@ The project began as a study in automotive surfacing using SolidWorks. My first 
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
 
 ![SolidWorks Surface Model – First Attempt](/mirachew-website/images/viper_initial_cad.png)
 
@@ -26,7 +26,7 @@ To correct this, I restarted the model and built *each* major body panel indepen
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
 
 ![Final Solid Model for Vacuum Forming](/mirachew-website/images/viper_final_surface.jpg)
 
@@ -51,7 +51,7 @@ Once the body geometry was complete, I created the mold and refined it through m
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Vacuum Form Before XTC Finishing](/mirachew-website/images/viper_w_lines.png)
 
@@ -59,7 +59,7 @@ Once the body geometry was complete, I created the mold and refined it through m
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![3D printed Model after XTC Finishing](/mirachew-website/images/viper_3d_print.png)
 
@@ -73,7 +73,7 @@ The first vacuum form revealed every print artifact, so I further smoothed and r
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
 
 ![Vacuum Form After XTC Finishing](/mirachew-website/images/viper_print_w_vacuum.jpg)
 

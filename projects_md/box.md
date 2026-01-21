@@ -21,7 +21,7 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Treasure Box Product](/mirachew-website/images/finished-view.png)
 
@@ -29,7 +29,7 @@ The treasure box serves as a small mechanical display piece. The rotating top re
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Treasure Box CAD Exploded View](/mirachew-website/images/exploded-labeled-view.png)
 
@@ -47,7 +47,7 @@ Using Fusion 360's built-in CAM environment, I created the toolpaths and generat
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
 
 ![Treasure Box Machining](/mirachew-website/images/machining-pic.png)
 
@@ -99,7 +99,7 @@ Engineering drawings were created in **Fusion 360** to define dimensional tolera
 }
 
 .lightbox-image {
-  max-width: 95%;
+  width: 95%;
   max-height: 95%;
   object-fit: contain;
   cursor: pointer;
@@ -132,15 +132,15 @@ Engineering drawings were created in **Fusion 360** to define dimensional tolera
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;" class="lightbox-clickable" onclick="openLightbox('/mirachew-website/images/drawing-bottom.png')">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;" class="lightbox-clickable">
 
-<img src="/mirachew-website/images/drawing-bottom.png" alt="Treasure Box Bottom Drawing" style="max-width: 100%; height: auto;">
+<img src="/mirachew-website/images/drawing-bottom.png" alt="Treasure Box Bottom Drawing" style="width: 100%; height: auto; cursor: pointer;" onclick="openLightbox('/mirachew-website/images/drawing-bottom.png')">
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;" class="lightbox-clickable" onclick="openLightbox('/mirachew-website/images/drawing-top.png')">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;" class="lightbox-clickable">
 
-<img src="/mirachew-website/images/drawing-top.png" alt="Treasure Box Top Drawing" style="max-width: 100%; height: auto;">
+<img src="/mirachew-website/images/drawing-top.png" alt="Treasure Box Top Drawing" style="width: 100%; height: auto; cursor: pointer;" onclick="openLightbox('/mirachew-website/images/drawing-top.png')">
 
 </div>
 
@@ -152,24 +152,30 @@ Engineering drawings were created in **Fusion 360** to define dimensional tolera
 </div>
 
 <script>
-function openLightbox(imageSrc) {
+window.openLightbox = function(imageSrc) {
   const overlay = document.getElementById('lightbox-overlay');
   const image = document.getElementById('lightbox-image');
-  image.src = imageSrc;
-  overlay.classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeLightbox() {
-  const overlay = document.getElementById('lightbox-overlay');
-  overlay.classList.remove('active');
-  document.body.style.overflow = '';
-}
-
-document.addEventListener('keydown', function(event) {
-  if (event.key === 'Escape') {
-    closeLightbox();
+  if (overlay && image) {
+    image.src = imageSrc;
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
   }
+};
+
+window.closeLightbox = function() {
+  const overlay = document.getElementById('lightbox-overlay');
+  if (overlay) {
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+      window.closeLightbox();
+    }
+  });
 });
 </script>
 

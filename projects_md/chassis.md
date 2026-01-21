@@ -14,7 +14,7 @@ The chassis was modeled in SolidWorks using 3D sketches and weldments, carefully
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 900px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 900px;">
 
 ![Baja Chassis Design - FEA Setup](/mirachew-website/images/static_1.PNG)
 
@@ -36,7 +36,7 @@ Through iterative redesign, I increased the minimum factor of safety from 2.8 to
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 900px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 900px;">
 
 ![Baja Chassis Design - FEA Results](/mirachew-website/images/static_3.PNG)
 
@@ -60,7 +60,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 <div style="flex-shrink: 0; align-self: flex-start;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 450px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 450px;">
 
 ![Priming and Painting Chassis](/mirachew-website/images/chassis_midpaint.png)
 
@@ -91,7 +91,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
 
 ![Welding at Competition](/mirachew-website/images/baja_front_pic.png)
 
@@ -99,7 +99,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 350px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 350px;">
 
 ![Compete](/mirachew-website/images/baja_1.png)
 

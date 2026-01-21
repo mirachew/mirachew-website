@@ -22,7 +22,7 @@ The project was completed by a four-person team, with my work focusing primarily
 
 <div style="flex-shrink: 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 300px;">
 
 ![Laser Wizard Tag Final Prototype](/mirachew-website/images/laser_tag_front_pic.jpg)
 
@@ -86,7 +86,7 @@ Each vest featured five sensor panels (four front, one back), each with multiple
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Electrical System Diagram](/mirachew-website/images/circuit_diagram.png)
 
@@ -94,7 +94,7 @@ Each vest featured five sensor panels (four front, one back), each with multiple
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![MicroController](/mirachew-website/images/esp8266.png)
 
@@ -131,7 +131,7 @@ if (playerHealth > 0 && detectHit()) {
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
 
 ![Game Logic Code Screenshot](/mirachew-website/images/game_logic.png)
 
@@ -160,7 +160,7 @@ All wiring was sandwiched between foam layers and routed to a custom 3D-printed 
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Vest Internal Circuitry](/mirachew-website/images/vest_inside.png)
 
@@ -168,7 +168,7 @@ All wiring was sandwiched between foam layers and routed to a custom 3D-printed 
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Vest Outside](/mirachew-website/images/vest_outside.png)
 

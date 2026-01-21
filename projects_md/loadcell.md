@@ -24,7 +24,7 @@ The initial plan was to simply weld everything together, which would have destro
 
 <div style="flex-shrink: 0; align-self: flex-start;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![CAD model of load-cell link](/mirachew-website/images/load_cell_cad.png)
 
@@ -69,7 +69,7 @@ The components I welded retained usable threads and the fixture bolts could be r
 
 <div style="flex-shrink: 0; align-self: flex-start;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Welded components](/mirachew-website/images/load_cell_welds.png)
 
@@ -89,7 +89,7 @@ After welding and chasing the threads, the completed links were installed betwee
 
 <div style="text-align: center; margin: 20px 0;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; max-width: 400px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;">
 
 ![Installed on suspension](/mirachew-website/images/formula_load_cell_installed_frontpic.png)
 
