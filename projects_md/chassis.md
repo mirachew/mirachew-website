@@ -93,7 +93,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 <div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 350px; display: flex; flex-direction: column; justify-content: flex-start;">
 
-<img src="/mirachew-website/images/baja_front_pic.png" alt="Welding at Competition" style="height: calc(350px - 50px); width: auto; object-fit: contain; margin-bottom: 5px;">
+<img src="/mirachew-website/images/baja_front_pic.png" alt="Welding at Competition" style="height: calc(350px - 50px); width: auto; object-fit: contain; margin-bottom: 25px;">
 
 <br><em>Welding repairs and adjustments at competition.</em>
 
@@ -101,7 +101,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 <div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 350px; display: flex; flex-direction: column; justify-content: flex-start;">
 
-<img src="/mirachew-website/images/baja_1.png" alt="Compete" style="height: calc(350px - 50px); width: auto; object-fit: contain; margin-bottom: 5px;">
+<img src="/mirachew-website/images/baja_1.png" alt="Compete" style="height: calc(350px - 50px); width: auto; object-fit: contain; margin-bottom: 25px;">
 
 <br><em>Fully functioning car driving back to pit.</em>
 
