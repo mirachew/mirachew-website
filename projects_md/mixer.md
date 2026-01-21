@@ -52,25 +52,25 @@ For the PCB, I imported reference geometry from the assembly to define mounting 
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap; align-items: flex-start;">
 
-<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: flex-start;">
 
-<img src="/mirachew-website/images/housing-assembly.PNG" alt="Mixer Housing Assembly" style="height: calc(300px - 60px); width: auto; object-fit: contain;">
+<img src="/mirachew-website/images/housing-assembly.PNG" alt="Mixer Housing Assembly" style="height: calc(300px - 50px); width: auto; object-fit: contain; margin-bottom: 5px;">
 
 <br><em>Housing assembly CAD of mixer.</em>
 
 </div>
 
-<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: flex-start;">
 
-<img src="/mirachew-website/images/exploded-view.PNG" alt="Mixer Exploded View" style="height: calc(300px - 60px); width: auto; object-fit: contain;">
+<img src="/mirachew-website/images/exploded-view.PNG" alt="Mixer Exploded View" style="height: calc(300px - 50px); width: auto; object-fit: contain; margin-bottom: 5px;">
 
 <br><em>Exploded CAD model of mixer.</em>
 
 </div>
 
-<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
+<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: flex-start;">
 
-<img src="/mirachew-website/images/mixer-pcb-cad.png" alt="Mixer PCB CAD" style="height: calc(300px - 60px); width: auto; object-fit: contain;">
+<img src="/mirachew-website/images/mixer-pcb-cad.png" alt="Mixer PCB CAD" style="height: calc(300px - 50px); width: auto; object-fit: contain; margin-bottom: 5px;">
 
 <br><em>Basic CAD model of PCB, made in Fusion 360.</em>
 

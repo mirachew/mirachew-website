@@ -132,51 +132,83 @@ Engineering drawings were created in **Fusion 360** to define dimensional tolera
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;" class="lightbox-clickable">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;" class="lightbox-clickable" data-image="/mirachew-website/images/drawing-bottom.png">
 
-<img src="/mirachew-website/images/drawing-bottom.png" alt="Treasure Box Bottom Drawing" style="width: 100%; height: auto; cursor: pointer;" onclick="openLightbox('/mirachew-website/images/drawing-bottom.png')">
-
-</div>
-
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;" class="lightbox-clickable">
-
-<img src="/mirachew-website/images/drawing-top.png" alt="Treasure Box Top Drawing" style="width: 100%; height: auto; cursor: pointer;" onclick="openLightbox('/mirachew-website/images/drawing-top.png')">
+<img src="/mirachew-website/images/drawing-bottom.png" alt="Treasure Box Bottom Drawing" style="width: 100%; height: auto; cursor: pointer;">
 
 </div>
 
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 400px;" class="lightbox-clickable" data-image="/mirachew-website/images/drawing-top.png">
+
+<img src="/mirachew-website/images/drawing-top.png" alt="Treasure Box Top Drawing" style="width: 100%; height: auto; cursor: pointer;">
+
 </div>
 
-<div id="lightbox-overlay" class="lightbox-overlay" onclick="closeLightbox()">
-  <span class="lightbox-close" onclick="event.stopPropagation(); closeLightbox()">&times;</span>
-  <img id="lightbox-image" class="lightbox-image" src="" alt="" onclick="event.stopPropagation()">
+</div>
+
+<div id="lightbox-overlay" class="lightbox-overlay">
+  <span class="lightbox-close">&times;</span>
+  <img id="lightbox-image" class="lightbox-image" src="" alt="">
 </div>
 
 <script>
-window.openLightbox = function(imageSrc) {
-  const overlay = document.getElementById('lightbox-overlay');
-  const image = document.getElementById('lightbox-image');
-  if (overlay && image) {
-    image.src = imageSrc;
-    overlay.classList.add('active');
-    document.body.style.overflow = 'hidden';
-  }
-};
-
-window.closeLightbox = function() {
-  const overlay = document.getElementById('lightbox-overlay');
-  if (overlay) {
-    overlay.classList.remove('active');
-    document.body.style.overflow = '';
-  }
-};
-
-document.addEventListener('DOMContentLoaded', function() {
-  document.addEventListener('keydown', function(event) {
-    if (event.key === 'Escape') {
-      window.closeLightbox();
+(function() {
+  function openLightbox(imageSrc) {
+    const overlay = document.getElementById('lightbox-overlay');
+    const image = document.getElementById('lightbox-image');
+    if (overlay && image) {
+      image.src = imageSrc;
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
     }
-  });
-});
+  }
+
+  function closeLightbox() {
+    const overlay = document.getElementById('lightbox-overlay');
+    if (overlay) {
+      overlay.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  }
+
+  function initLightbox() {
+    // Add click handlers to all lightbox-clickable elements
+    const clickableElements = document.querySelectorAll('.lightbox-clickable');
+    clickableElements.forEach(function(element) {
+      element.addEventListener('click', function(e) {
+        const imageSrc = element.getAttribute('data-image');
+        if (imageSrc) {
+          e.preventDefault();
+          openLightbox(imageSrc);
+        }
+      });
+    });
+
+    // Add click handler to overlay background
+    const overlay = document.getElementById('lightbox-overlay');
+    if (overlay) {
+      overlay.addEventListener('click', function(e) {
+        if (e.target === overlay || e.target.classList.contains('lightbox-close')) {
+          closeLightbox();
+        }
+      });
+    }
+
+    // Add ESC key handler
+    document.addEventListener('keydown', function(event) {
+      if (event.key === 'Escape') {
+        closeLightbox();
+      }
+    });
+  }
+
+  // Initialize when DOM is ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initLightbox);
+  } else {
+    initLightbox();
+  }
+})();
 </script>
 
 *Each drawing includes datums, reference dimensions, and feature control frames to ensure consistent press-fit geometry. Click on a drawing to view it in full size.*
