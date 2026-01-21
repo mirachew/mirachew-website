@@ -52,7 +52,7 @@ For the PCB, I imported reference geometry from the assembly to define mounting 
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px;">
 
 ![Mixer Housing Assembly](/mirachew-website/images/housing-assembly.PNG)
 
@@ -60,7 +60,7 @@ For the PCB, I imported reference geometry from the assembly to define mounting 
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px;">
 
 ![Mixer Exploded View](/mirachew-website/images/exploded-view.PNG)
 
@@ -68,7 +68,7 @@ For the PCB, I imported reference geometry from the assembly to define mounting 
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 300px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px;">
 
 ![Mixer PCB CAD](/mirachew-website/images/mixer-pcb-cad.png)
 

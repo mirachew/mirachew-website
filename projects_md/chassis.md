@@ -91,7 +91,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 <div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 500px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 350px;">
 
 ![Welding at Competition](/mirachew-website/images/baja_front_pic.png)
 
@@ -99,7 +99,7 @@ I fabricated the chassis via MIG-welding SAE-quality chromoly 4130 steel. I util
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; width: 350px;">
+<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 350px;">
 
 ![Compete](/mirachew-website/images/baja_1.png)
 
