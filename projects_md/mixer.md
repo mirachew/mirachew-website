@@ -50,27 +50,27 @@ The housing geometry was modeled from physical measurements of the original mixe
 
 For the PCB, I imported reference geometry from the assembly to define mounting shape and connector locations, learning how mechanical context guides board layout.
 
-<div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap;">
+<div style="display: flex; gap: 15px; justify-content: center; margin: 20px auto; flex-wrap: wrap; align-items: flex-start;">
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px;">
+<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
 
-![Mixer Housing Assembly](/mirachew-website/images/housing-assembly.PNG)
+<img src="/mirachew-website/images/housing-assembly.PNG" alt="Mixer Housing Assembly" style="height: calc(300px - 60px); width: auto; object-fit: contain;">
 
 <br><em>Housing assembly CAD of mixer.</em>
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px;">
+<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
 
-![Mixer Exploded View](/mirachew-website/images/exploded-view.PNG)
+<img src="/mirachew-website/images/exploded-view.PNG" alt="Mixer Exploded View" style="height: calc(300px - 60px); width: auto; object-fit: contain;">
 
 <br><em>Exploded CAD model of mixer.</em>
 
 </div>
 
-<div style="display: inline-block; text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px;">
+<div style="text-align: center; border: 1px solid #ccc; padding: 10px; background-color: #fafafa; height: 300px; display: flex; flex-direction: column; justify-content: space-between;">
 
-![Mixer PCB CAD](/mirachew-website/images/mixer-pcb-cad.png)
+<img src="/mirachew-website/images/mixer-pcb-cad.png" alt="Mixer PCB CAD" style="height: calc(300px - 60px); width: auto; object-fit: contain;">
 
 <br><em>Basic CAD model of PCB, made in Fusion 360.</em>
 
